@@ -1,0 +1,24 @@
+[package]
+name = "fancy-default-derive"
+edition = "2021"
+authors = ["Embers-of-the-Fire <stellarishs@163.com>"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Embers-of-the-Fire/better-default-rs.git"
+homepage = "https://github.com/Embers-of-the-Fire/better-default-rs"
+description = "A better `derive(Default)` implementation."
+
+categories = ["rust-patterns", "no-std"]
+keywords = ["proc-macro", "default", "derive"]
+
+version = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+case = "1.0.0"
+itertools = "0.12.1"
+proc-macro2 = "1.0.79"
+quote = "1.0.36"
+syn = "2.0.58"
